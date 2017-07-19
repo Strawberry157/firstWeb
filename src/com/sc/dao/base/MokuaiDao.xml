@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sc.dao.base.MokuaiDao">
+	<select id="findAll" resultType="com.sc.entity.Mokuai">
+		select * from t_mokuai where shanchu = 0 and parentMokuai = -1 order by paixu desc
+	</select>
+</mapper>
