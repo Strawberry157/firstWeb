@@ -12,6 +12,7 @@
   
   <body>
      Hello!<br>
+
      <a href="html/cms/lol/hero.jsp">LOL Hero</a>
   </body>
 </html>
